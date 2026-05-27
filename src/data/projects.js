@@ -1,6 +1,7 @@
 import cerebra from "../Images/cerebra.png";
 import Modern_LoginPage from "../Images/Modern_LoginPage.png";
 import previewImg from "../Images/previewImg.png";
+import profileCard from "../Images/profileCard.png"
 
 export const projects = [
   {
@@ -11,7 +12,7 @@ export const projects = [
     desc: "IQ assessment platform with adaptive scoring, real-time feedback, and a mobile-first UI. Built end-to-end from Figma design to live deployment on Vercel.",
     stack: ["React", "Vite", "JavaScript", "CSS"],
     status: "Live",
-    featured: true, // spans 2 columns + shows preview image area
+    featured: true, 
     links: {
       demo: "https://cerebra-quiz-app.vercel.app/",
       github: "https://github.com/LeonScriptJS/Cerebra-Quiz-App",
@@ -34,47 +35,32 @@ export const projects = [
     },
   },
 
-  {
+ {
     id: 1,
-
     title: "LeonScriptJS Profile Card",
-
+    image: profileCard,
     desc: "Minimal personal profile card built with semantic HTML and modern CSS. Focused on clean typography, responsive layout, and strong visual hierarchy.",
-
     stack: ["HTML5", "CSS3", "Responsive Design"],
-
-    status: "Live",
-
+    status: "Not Live",
     featured: false,
-
     links: {
       demo: "#",
       github: "https://github.com/LeonScriptJS/Profile-Picture-Card",
     },
-
     role: "Solo Developer",
-
     problem:
       "Needed a clean and professional personal card component that presents identity, frontend focus, and personal branding in a simple but visually polished format.",
-
     solution:
       "Built a responsive profile card using semantic HTML and modern CSS styling techniques. Focused heavily on spacing, typography pairing, image presentation, and layout simplicity to create a premium-looking UI component.",
-
     challenges: [
       "Creating strong visual balance with minimal content required careful spacing and typography decisions.",
-
       "Making the profile image integrate naturally into the card design without overpowering the text content.",
-
       "Achieving a clean premium aesthetic using only HTML and CSS without relying on frameworks or external UI libraries.",
     ],
-
     stackBreakdown: {
       Structure: ["HTML5"],
-
       Styling: ["CSS3", "Flexbox", "Google Fonts", "Responsive Design"],
-
       UI: ["Typography Hierarchy", "Component Layout", "Visual Spacing"],
-
       Deploy: ["Vercel"],
     },
   },
@@ -113,10 +99,10 @@ export const projects = [
     desc: "This portfolio is a frontend developer identity system designed to feel like a real SaaS product dashboard, not a generic template.",
     stack: ["React", "Vite", "Tailwind CSS", "JavaScript"],
     status: "Live",
-    featured: true, // FIX #8: matches HTML where project 4 is also featured (2-col span + preview)
+    featured: true, 
     links: {
       demo: "#Hero",
-      github: "https://github.com/LeonScriptJS",
+      github: "https://github.com/LeonScriptJS/leonscriptjs_Portfolio",
     },
     role: "Solo Developer",
     problem:
